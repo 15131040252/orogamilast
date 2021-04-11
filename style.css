@@ -1,0 +1,58 @@
+.header
+{
+    border: 10px solid red;
+    display: flex;
+    padding: 10px;;
+    flex-wrap: wrap;
+    color: rgb(34, 34, 109);
+    background-color:green;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.camel
+{
+    border: 10px solid greenyellow;
+    display: flex;
+    padding: 10px;;
+    flex-wrap: wrap;
+    color: rgb(225, 10, 222);
+    background-color: purple;
+    justify-content: space-evenly;
+    text-align: center  ;
+}
+.camel:hover img
+{
+   opacity: 0.55;
+}
+.teddybear
+{
+    border: 10px solid pink;
+    padding: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    color:rgb(0, 0, 255);
+    background-color: silver;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.teddybear:hover img
+{
+   opacity: 0.55;
+}
+
+.footer
+{
+    border:10px solid gold;
+    padding: 10px;;
+    flex-wrap: wrap;
+    display: flex;
+    color: rgb(255, 0, 0);
+    background-color:palevioletred;
+    justify-content: space-evenly;
+    text-align:justify;
+}
+.footer:hover img
+{
+    opacity: 0.55;
+}
